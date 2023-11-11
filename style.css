@@ -145,7 +145,30 @@
   text-align: center;
 }
 
-/* xxxx */
+/* Home CSS ENDS */
+
+/* PRODUCT CSS STARTS */
+.grid-view-1{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.grid-view-2{
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 15px;    
+  margin-bottom: 20px;
+}
+
+.grid-view-3{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 15px;    
+  margin-bottom: 20px;
+}
+/* PRODUCT CSS ENDS */
 
 .section{
     margin: 10px auto;
@@ -166,33 +189,8 @@
     object-position: center;
 }
 
-.grid-view{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 15px;
-    margin-bottom: 20px;
-}
 
-.grid-view-1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-    margin-bottom: 20px;
-}
 
-.grid-view-2{
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    gap: 15px;    
-    margin-bottom: 20px;
-}
-
-.grid-view-3{
-    display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    gap: 15px;    
-    margin-bottom: 20px;
-}
 
 .height-1{
     height: 50vh;
