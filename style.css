@@ -174,7 +174,46 @@
   gap: 15px;    
   margin-bottom: 20px;
 }
+
 /* PRODUCT CSS ENDS */
+
+/* CONTACT US STARTS */
+.grid-view-5{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;    
+  margin-bottom: 20px;
+}
+/* Inputs */
+.formbox{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.formbox h3{
+  margin: 5px 0;
+}
+
+.input{
+  width: 100%;
+  border: 2px solid rgb(190, 190, 190);
+  box-shadow: 0 0 3px rgb(170, 170, 170);
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.output{
+  margin: 20px auto;
+  padding: 30px;
+  border: 5px solid green;
+  color: green;
+}
+
+/* CONTACT US ENDS */
 
 .section{
     margin: 10px auto;
@@ -245,7 +284,30 @@
 
 
 
+.h-gold{
+  color: rgb(224, 173, 6);
+}
+.h-crimson{
+  color: rgb(182, 37, 104);
+}
+.h-purple{
+  color: rgb(112, 74, 247);
+}
+.h-seagreen{
+  color: rgb(8, 184, 169);
+}
 
+.red-mark{
+  color: red;
+  border: 5px solid red;;
+}
+
+.stars{
+  display: flex;
+  gap: 3px;
+  padding: 12px 0;
+  color: rgb(233, 179, 3);
+}
 
 
 
