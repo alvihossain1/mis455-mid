@@ -51,6 +51,107 @@
 .main{
   height: 100vh;
 }
+
+.width-50{
+  width: 50%;
+}
+
+.width-80{
+  width: 80%;
+}
+
+.light-text{
+  color: rgb(110, 110, 110);
+}
+
+.pad-1{
+  padding: 15px;
+}
+.pad-2{
+  padding: 25px;
+}
+
+.pady-1{
+  padding: 10px 0;
+}
+.pady-2{
+  padding: 20px 0;
+}
+
+.marb-1{
+  margin-bottom: 10px;
+}
+
+.shadow{
+  box-shadow: 0 0 10px rgb(73, 73, 73);
+}
+
+/* HOME CSS */
+
+.cover-photo{
+  height: 70vh;
+  margin-bottom: 30px;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+.section{
+  margin: 10px auto;
+}
+
+.img-holder{
+  overflow: hidden;
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.grid-view{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.grid-view-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.grid-view-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  gap: 15px;    
+  margin-bottom: 20px;
+}
+
+.grid-view-3{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 15px;    
+  margin-bottom: 20px;
+}
+
+.height-1{
+  height: 50vh;
+}
+
+
+
+
+
+
+
+
 /* MAIN ENDS */
 
 
@@ -99,7 +200,7 @@
 }
 
 .footer .icon{
-  padding: 5px 15px;
+  padding: 5px 10px;
 }
 
 .footer .para{
