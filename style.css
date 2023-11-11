@@ -265,23 +265,6 @@
 
 /* MAIN ENDS */
 
-
-
-
-
-.h-gold{
-  color: rgb(224, 173, 6);
-}
-.h-crimson{
-  color: rgb(182, 37, 104);
-}
-.h-purple{
-  color: rgb(112, 74, 247);
-}
-.h-seagreen{
-  color: rgb(8, 184, 169);
-}
-
 .red-mark{
   color: red;
   border: 5px solid red;;
