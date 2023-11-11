@@ -4,7 +4,7 @@ function submit() {
     var msg = document.getElementById("message").value;
     var output;
 
-    if (name = "" || email == "" || msg == "") {
+    if (email == "" || email == "" || msg == "") {
         output = `
         <div class="output"> 
             <h3>Not All Fields are filled. Please fill up all the fields.</h3>
@@ -21,7 +21,6 @@ function submit() {
                     </div>
         `;
     }
-
 
     document.getElementById("generate").innerHTML = output;
 
