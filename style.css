@@ -87,8 +87,23 @@
   align-items: center;
 }
 
-.footer .item p{
+.footer .tags{
   padding: 10px 0;
+  color: white;
+}
+
+.footer .icons{
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.footer .icon{
+  padding: 5px 15px;
+}
+
+.footer .para{
+  text-align: center;
 }
 
 /* FOOTER ENDS */
