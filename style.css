@@ -7,9 +7,9 @@
 
 /* NAVBAR */
 
-.navbar{
+.navbar {
   width: 100%;
-  background-color: rgb(46, 46, 46);
+  background-color: rgb(54, 54, 54);
   display: flex;
   justify-content: center;
   padding: 5px 0;
@@ -35,13 +35,60 @@
 }
 
 .navbar li a:hover:not(.active) {
-  background-color: #175086;
+  background-color: #177986;
   color: white;
 }
 
 .navbar .active {
-  background-color: deeppink;
+  background-color: rgb(212, 44, 134);
   color: white;
 }
 
 /* NAVBAR ENDS */
+
+
+/* MAIN STARTS */
+.main{
+  height: 100vh;
+}
+/* MAIN ENDS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+.footer {
+  display: flex;
+  background-color: rgb(54, 54, 54);
+  color: white;
+  padding: 20px;
+}
+
+.footer .item{
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .item p{
+  padding: 10px 0;
+}
+
+/* FOOTER ENDS */
